@@ -7,6 +7,8 @@
   <a href="https://github.com/nuzulfikrie/laravel12-policy-exercise/actions/workflows/tests/badge.svg">
   </a>
 </p>
+
+
 ## 🎯 Project Overview
 
 This project demonstrates two approaches to authorization in Laravel:
