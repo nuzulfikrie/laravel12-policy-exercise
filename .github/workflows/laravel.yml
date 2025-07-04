@@ -69,3 +69,20 @@ jobs:
       # Run PHPStan analysis
       - name: Run PHPStan
         run: vendor/bin/phpstan analyse --memory-limit=2G
+
+
+      # Update README.md with badges
+      - name: Update README badges
+        uses: mikepenz/action-update-readme-badges@v1
+        with:
+          target: README.md
+          target_branch: main
+          badges: |
+            - badge: Test Coverage
+              url: https://raw.githubusercontent.com/${{ github.repository }}/main/badge-coverage.svg
+              description: Test coverage percentage
+            - badge: Test Status
+              url: https://github.com/${{ github.repository }}/actions/workflows/ci.yml/badge.svg
+              description: Latest test status
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
