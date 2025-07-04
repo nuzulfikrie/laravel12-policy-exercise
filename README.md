@@ -1,15 +1,14 @@
 # Laravel Policy Capabilities Showcase
 
-
 ## 🎉 Build and Test Status
-
 <p align="center">
-  <a href="https://github.com/nuzulfikrie/laravel12-policy-exercise/actions/workflows/tests/badge.svg">
+  <a href="https://github.com/nuzulfikrie/laravel12-policy-exercise/actions/workflows/laravel.yml">
+    <img src="https://github.com/nuzulfikrie/laravel12-policy-exercise/actions/workflows/laravel.yml/badge.svg" alt="Laravel Tests">
   </a>
 </p>
 
-
 ## 🎯 Project Overview
+
 
 This project demonstrates two approaches to authorization in Laravel:
 **Laravel Policies** (`PostController` + `PostPolicy`)
