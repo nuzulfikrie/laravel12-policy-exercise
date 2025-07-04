@@ -59,13 +59,6 @@ jobs:
           SESSION_DRIVER: array
         run: vendor/bin/pest --coverage-clover clover.xml
 
-     # Generate coverage badge
-      - name: Generate coverage badge
-        uses: timkrase/phpunit-coverage-badge@v1.2.0
-        with:
-          coverage_badge_path: badge-coverage.svg
-          push_badge: true
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
 
       # Run PHPStan analysis
       - name: Run PHPStan
@@ -78,9 +71,6 @@ jobs:
           target: README.md
           target_branch: main
           badges: |
-            - badge: Test Coverage
-              url: https://raw.githubusercontent.com/${{ github.repository }}/main/badge-coverage.svg
-              description: Test coverage percentage
             - badge: Test Status
               url: https://github.com/${{ github.repository }}/actions/workflows/laravel.yml/badge.svg
               description: Latest test status
