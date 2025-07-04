@@ -17,10 +17,8 @@ This project demonstrates two approaches to authorization in Laravel:
 ### Key Features
 
 - ✅ **Policy-Driven Authorization** - Centralized, reusable authorization logic
-- ✅ **Manual Authorization Comparison** - See the difference between approaches
 - ✅ **Comprehensive Testing** - Unit and feature tests for both approaches
 - ✅ **Static Analysis** - PHPStan integration for code quality
-- ✅ **Modern UI Dashboard** - Beautiful policy capabilities showcase
 - ✅ **Custom Policy Methods** - Including custom `semak` (review) action
 
 ## 🚀 Quick Start
