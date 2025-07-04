@@ -1,0 +1,21 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+    paths:
+        - app/
+        - config/
+        - database/
+        - routes/
+        - tests/
+    level: 6
+    ignoreErrors:
+        - '#Access to an undefined property [a-zA-Z0-9\\]+::\$[a-zA-Z0-9]+#'
+        - '#Call to an undefined method PHPUnit\\Framework\\TestCase::#'
+        - '#Undefined variable: \$this#'
+        - '#Class .* uses generic trait .* but does not specify its types#'
+        - '#Method App\\Models\\Post::user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types#'
+    excludePaths:
+        - app/Http/Controllers/Auth/*
+    reportUnmatchedIgnoredErrors: true
+    tmpDir: ./tmp/phpstan
