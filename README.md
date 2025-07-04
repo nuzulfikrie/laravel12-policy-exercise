@@ -1,8 +1,10 @@
 # Laravel Policy Capabilities Showcase
 
 
-[![Test Coverage](https://raw.githubusercontent.com/nuzulfikrie/laravel12-policy-exercise/main/badge-coverage.svg)](https://github.com/nuzulfikrie/laravel12-policy-exercise)
-A comprehensive demonstration of Laravel's authorization system, comparing manual authorization checks with Laravel Policies. This project showcases best practices for implementing secure, maintainable authorization in Laravel applications.
+## 🎉 Build and Test Status
+
+![Test Coverage]
+![Test Status]
 
 ## 🎯 Project Overview
 
