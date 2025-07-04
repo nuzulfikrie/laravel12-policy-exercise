@@ -5,9 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/nuzulfikrie/laravel12-policy-exercise/actions/workflows/tests/badge.svg">
-    <img alt="Test Status" src="https://github.com/nuzulfikrie/laravel12-policy-exercise/actions/workflows/laravel.yml/badge.svg" />
   </a>
-
 </p>
 ## 🎯 Project Overview
 
