@@ -14,9 +14,7 @@
 ## 🎯 Project Overview
 
 This project demonstrates two approaches to authorization in Laravel:
-
-1. **Manual Authorization** (`PostNoPolicyController`) - Direct checks in controllers
-2. **Laravel Policies** (`PostController` + `PostPolicy`) - Centralized authorization logic
+**Laravel Policies** (`PostController` + `PostPolicy`)
 
 ### Key Features
 
@@ -31,7 +29,7 @@ This project demonstrates two approaches to authorization in Laravel:
 
 ### Prerequisites
 
-- PHP 8.2+
+- PHP 8.4+ for laravel 12
 - Composer
 - Node.js 22+ (for frontend assets)
 - Database (MySQL, PostgreSQL, or SQLite)
