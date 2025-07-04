@@ -3,9 +3,14 @@
 
 ## 🎉 Build and Test Status
 
-![Test Coverage]
-![Test Status]
-
+<p align="center">
+  <a href="https://github.com/nuzulfikrie/laravel12-policy-exercise/actions/workflows/laravel.yml">
+    <img alt="Test Status" src="https://github.com/nuzulfikrie/laravel12-policy-exercise/actions/workflows/laravel.yml/badge.svg" />
+  </a>
+  <a href="https://raw.githubusercontent.com/nuzulfikrie/laravel12-policy-exercise/main/badge-coverage.svg">
+    <img alt="Test Coverage" src="https://raw.githubusercontent.com/nuzulfikrie/laravel12-policy-exercise/main/badge-coverage.svg" />
+  </a>
+</p>
 ## 🎯 Project Overview
 
 This project demonstrates two approaches to authorization in Laravel:
