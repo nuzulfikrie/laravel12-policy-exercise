@@ -59,7 +59,7 @@ jobs:
           SESSION_DRIVER: array
         run: vendor/bin/pest --coverage-clover clover.xml
 
-      # Generate coverage badge
+     # Generate coverage badge
       - name: Generate coverage badge
         uses: timkrase/phpunit-coverage-badge@v1.2.0
         with:
